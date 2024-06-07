@@ -1,8 +1,20 @@
 import React from 'react'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './Pages/Home/Home'
+import AddEditUser from './Pages/AddEditUser/AddEditUser'
 
 const App = () => {
   return (
-    <div>App</div>
+   
+<BrowserRouter>
+<Routes>
+  <Route path='/' element={<Home />} />
+  <Route path='/add' element={<AddEditUser />} />
+  <Route path='/update/:id' element={<AddEditUser />} />
+</Routes>
+</BrowserRouter>
+
+  
   )
 }
 
