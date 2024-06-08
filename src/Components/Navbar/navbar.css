@@ -1,0 +1,28 @@
+.navbar{
+    background-color: var(--dark);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0.7rem 4rem;
+font-size: 1.5rem;
+}
+
+.home-link{
+    background-color: var(--dark);
+    color: var(--light); 
+}
+
+.add-user-btn{
+    background-color: var(--light);
+    padding: 0.5rem;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px 7px rgb(12, 12, 12);
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 2s;
+}
+
+.add-user-btn:hover{
+    box-shadow: 5px 5px 7px rgba(49, 49, 49, 0.76);
+}
