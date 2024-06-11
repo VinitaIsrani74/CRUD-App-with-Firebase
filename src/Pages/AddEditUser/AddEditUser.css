@@ -1,0 +1,71 @@
+.addEditUser{
+   
+    width: 100%;
+    min-height: 100vh;
+    height: fit-content;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.form-container{
+ 
+    width: 40%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loading{
+    color: var(--dark);
+    font-size: 3rem;
+}
+.add-user-form{
+    margin: 1rem;
+    padding: 1rem;
+    gap: 1rem;
+    width: 100%;
+  box-shadow: 2px 1px 7px var(--dark);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .heading{
+        font-weight: 700;
+        align-self: center;
+        font-size: 1.4rem;
+    }
+
+    .add-user-form label{
+        font-weight: 700;
+    }
+    .add-user-form input,.add-user-form textarea{
+        border: none;
+        outline: none;
+    background-color: rgba(204, 200, 200, 0.534);
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    }
+
+    .add-user-form textarea{
+        min-height: 2rem;
+        resize: vertical;
+    }
+    .submit-btn{
+        border: none;
+        outline: none;
+    background-color:var(--dark);
+    padding: 1rem;
+    color: var(--light);
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px rgb(11, 11, 11);
+    }
+
+    .error-div{
+        color: red;
+    }
+
+
